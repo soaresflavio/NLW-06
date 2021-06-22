@@ -4,7 +4,7 @@ const app = express();
 
 app.get("/test", (request, response) => {
     
-    return response.send("Ola NLW");  
+    return response.send("Ola NLW 06");  
 
 });
 

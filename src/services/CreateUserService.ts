@@ -12,7 +12,7 @@ class CreateUserService {
     async execute({ name, email, admin } : IUserRequest) {
         const usersRepository = getCustomRepository(UsersRepositories);
 
-        if(!email) {
+        if (!email) {
             throw new Error("Email incorrect");
         }
 
